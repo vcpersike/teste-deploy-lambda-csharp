@@ -9,7 +9,7 @@ namespace hello_world_lambda_csharp
     {
         public string Handler(MyEvent input, ILambdaContext context)
         {
-            return "Hello World! Teste de deploy automático.";
+            return "Hello World! Teste de deploy automático. Alteração 2";
         }
     }
 

@@ -27,7 +27,6 @@ jobs:
         run: |
           cd src/hello-world-lambda-csharp/bin/Debug/net6.0
           zip -r ../../../../../lambda-package.zip .
-      
 
       - name: Deploy to AWS Lambda
         run: |
